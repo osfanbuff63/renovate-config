@@ -11,7 +11,8 @@
   ],
   "labels": ["dependencies"],
   "commitMessagePrefix": "chore: deps: ",
-   // PRs break if I don't do this
+   // PRs break without this
   "rebaseWhen": "behind-base-branch",
-  "bumpVersion": "patch"
+  "bumpVersion": "patch",
+  "ignorePaths": [".github/**"]
 }
