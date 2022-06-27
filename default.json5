@@ -15,4 +15,5 @@
   "rebaseWhen": "behind-base-branch",
   "bumpVersion": "patch",
   "ignorePaths": [".github/**"]
+  "ignoreDeps": ["http_parser.rb"]
 }
