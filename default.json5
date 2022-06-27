@@ -14,6 +14,6 @@
    // PRs break without this
   "rebaseWhen": "behind-base-branch",
   "bumpVersion": "patch",
-  "ignorePaths": [".github/**"]
+  "ignorePaths": [".github/**"],
   "ignoreDeps": ["http_parser.rb"]
 }
