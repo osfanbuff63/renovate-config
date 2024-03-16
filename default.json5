@@ -10,7 +10,7 @@
     "after 9am and before 8pm every day"
   ],
   "labels": ["dependencies"],
-  "commitMessagePrefix": "chore: deps: ",
+  "commitMessagePrefix": "chore(deps): ",
    // PRs break without this
   "rebaseWhen": "behind-base-branch",
   "bumpVersion": "patch",
